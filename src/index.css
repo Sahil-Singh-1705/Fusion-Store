@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+body{
+  background-color: #1C1C1C;
+}
+
+.btn {
+  @apply px-2 py-2 bg-[#FFD700] text-[#121212] font-semibold cursor-pointer rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105 hover:brightness-110 active:scale-95 active:brightness-90;
+}
+
+.product-card {
+  @apply bg-white shadow-lg rounded-lg overflow-hidden transform transition duration-300 hover:scale-105;
+}
+
+.glow-text {
+  text-shadow: 0 0 0px #FFD700, 0 0 5px #FFD700, 0 0 10px #FFD700;
+}
+
